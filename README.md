@@ -1,10 +1,16 @@
 # Real State Marketplace Decentralized Aapp on Ethereum
 
-Virtual real state marketplace using Ethereum blockchain and smart contract with solidity
+ - Project description
+ - Functional requirements
 
-## Concept and explanation
-Final Project for Blockchain NanoDegree that requires to mint own tokens to represent the title to the properties. Before minting the token, the owner needs to verify she/she owns the property. A zk-SNARKs (zoKrates) mechanism will be used to create a verification system which can prove the ownership of title to the property without revealing that specific information on the property.
-Once the token has been verified it will be placed on a blockchain market place (OpenSea) for others to purchase.
+
+## Project description
+
+This app implements a marketplace for the sale of real state properties using Ethereum blockchain and Solidity Smart contracts. The main goal is to increase the security in property selling - transferring ownership. The project is developed incrementally following agile methodologies. We are going to update documents and code with each version.
+
+## Functional requirements
+The process starts with the emerald extraction performed by the miner in the mine. The miner needs to scale the stone with information like weight, color, size, and clarity grade. These are technical parameters to a detailed description of each emerald. After scale, the emerald needs to be packeted to ship to the specialized laboratory authorized by the miner for trusted technical verifications and properties certification. Once emerald is shipped to Laboratory, this one needs to confirm the reception and do the certification process. The certified emerald is sent to a secure custodian storage service, authorized by the miner in the packaging process. The Custodian storage confirms reception, store the emerald and send a verification to the miner, who at this point, have a certified and secured emerald and can register for sale, setting up the price based on the certified properties. With the emeralds in the raw emerald in the market, the manufacturer can buy a raw emerald to cut and polish them to make a product able to be used in jewel manufacturing. The manufacturer buys the emerald, taking its ownership, and ships an order to the custodian to get the raw emerald to their processing factory. The Manufacturer process the emerald, pack for sale and register for a market sale with the new prices market. The jewel creators can search all the stones in the cut emeralds offer and buy them. When they transfer the amount to the manufacturer, they send the cut emerald to the customer location and confirm the final reception.
+
 
 Although is is optional, a UI has been provided in order to help viewing and minting tokens (with or without approved solution)
 The optional front-end of the application runs on the client's machine, powered by a lite-server. Using web3/metamask , it communicates with the deployed smart contract from Rinkeby. 
